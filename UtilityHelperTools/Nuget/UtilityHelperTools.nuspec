@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>UtilityHelperTools</id>
+    <version>1.0.0</version>
+    <title>UtilityHelperTools</title>
+    <authors>Alexandre Brandao Lustosa</authors>
+    <owners>Alexandre Brandao Lustosa</owners>
+    <licenseUrl>https://github.com/alexandrebl/UtilityHelperTools</licenseUrl>
+    <projectUrl>https://github.com/alexandrebl/UtilityHelperTools</projectUrl>
+    <iconUrl>https://github.com/alexandrebl/UtilityHelperTools</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>UtilityHelperTools include utilities for string, json validation, Ioc, dependecy injection control and others helper tools</description>
+    <releaseNotes>first version</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>stringUtilities string json validation parse Ioc dependecy injection control and others helper tools</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\Release\UtilityHelperTools.*" target="lib\net45" />
+  </files>
+</package>
