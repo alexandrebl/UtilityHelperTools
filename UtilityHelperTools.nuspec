@@ -19,6 +19,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\bin\Release\UtilityHelperTools.*" target="lib\net45" />
+    <file src="bin\Release\UtilityHelperTools.*" target="lib\net45" />
   </files>
 </package>
