@@ -55,7 +55,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Nuget\UtilityHelperTools.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
