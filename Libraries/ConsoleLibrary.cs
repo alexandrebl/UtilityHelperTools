@@ -9,6 +9,11 @@ namespace UtilityHelperTools.Libraries {
     public static class ConsoleLibrary {
 
         /// <summary>
+        /// Define se está em modo debug
+        /// </summary>
+        private static bool _isDebugMode;
+
+        /// <summary>
         /// Evento
         /// </summary>
         public static event Action<string> EnvenWatchHandle;
@@ -17,7 +22,6 @@ namespace UtilityHelperTools.Libraries {
         /// Define a cor do console
         /// </summary>
         /// <param name="consoleColor">cor do console</param>
-        [Conditional("DEBUG")]
         public static void SetColor(ConsoleColor consoleColor) {
             //Define a cor
             Console.ForegroundColor = consoleColor;
@@ -31,20 +35,29 @@ namespace UtilityHelperTools.Libraries {
             //Complementa os dados
             message = $"{DateTime.UtcNow:o}: {message}";
 
+            //Vefica se está em momo debug
+            if (!_isDebugMode) PrintMessage(message);
+
             //Chama o evento
             EnvenWatchHandle?.Invoke(message);
-            //Mensagem
-            PrintMessage(message);
         }
 
         /// <summary>
         /// Escreve uma mensagem no console
         /// </summary>
         /// <param name="message">mensagem</param>
-        [Conditional("DEBUG")]
         private static void PrintMessage(string message) {
             //Imprime mensagem
             Console.WriteLine(message);
+        }
+
+        /// <summary>
+        /// Define o modo debug
+        /// </summary>
+        /// <param name="isDebugMode">flag</param>
+        private static void SetDebugMode(bool isDebugMode) {
+            //Define flag
+            _isDebugMode = isDebugMode;
         }
     }
 }
