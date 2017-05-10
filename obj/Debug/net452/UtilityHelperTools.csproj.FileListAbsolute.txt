@@ -1,0 +1,6 @@
+C:\repository\git\UtilityHelperTools\bin\Debug\net452\UtilityHelperTools.dll
+C:\repository\git\UtilityHelperTools\bin\Debug\net452\UtilityHelperTools.pdb
+C:\repository\git\UtilityHelperTools\bin\Debug\net452\Newtonsoft.Json.dll
+C:\repository\git\UtilityHelperTools\obj\Debug\net452\UtilityHelperTools.AssemblyInfo.cs
+C:\repository\git\UtilityHelperTools\obj\Debug\net452\UtilityHelperTools.dll
+C:\repository\git\UtilityHelperTools\obj\Debug\net452\UtilityHelperTools.pdb
