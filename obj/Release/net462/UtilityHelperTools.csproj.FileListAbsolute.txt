@@ -1,0 +1,7 @@
+C:\repository\git\UtilityHelperTools\bin\Release\net462\UtilityHelperTools.dll
+C:\repository\git\UtilityHelperTools\bin\Release\net462\UtilityHelperTools.pdb
+C:\repository\git\UtilityHelperTools\bin\Release\net462\Newtonsoft.Json.dll
+C:\repository\git\UtilityHelperTools\obj\Release\net462\UtilityHelperTools.csprojResolveAssemblyReference.cache
+C:\repository\git\UtilityHelperTools\obj\Release\net462\UtilityHelperTools.AssemblyInfo.cs
+C:\repository\git\UtilityHelperTools\obj\Release\net462\UtilityHelperTools.dll
+C:\repository\git\UtilityHelperTools\obj\Release\net462\UtilityHelperTools.pdb
